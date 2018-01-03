@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="36">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/dp_66"
+            android:text="支付方式 立方直兑"
+            android:textColor="#FFEB6F48"
+            android:textSize="@dimen/dp_26" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="42">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/iamge_4" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="22">
+
+        <TextView
+            android:id="@+id/id_ok"
+            android:layout_width="@dimen/dp_91"
+            android:layout_height="@dimen/dp_32"
+            android:layout_centerInParent="true"
+            android:background="@drawable/shape_guid_btn"
+            android:text="立即开始"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/dp_16" />
+    </RelativeLayout>
+</LinearLayout>

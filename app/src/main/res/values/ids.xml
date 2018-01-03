@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_page" type="id" />
+    <item name="id_ok" type="id" />
+    <item name="pageOne" type="id" />
+</resources>

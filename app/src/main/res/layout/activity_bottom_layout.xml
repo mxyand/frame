@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dp_49"
+    android:background="@mipmap/tab_home">
+    <RadioGroup
+        android:id="@+id/tabGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/select_home_tab"
+            android:gravity="center"
+            android:text="主页"
+            android:textColor="@drawable/select_textcolor_yellow_gray"
+            android:textSize="@dimen/dp_10" />
+
+        <RadioButton
+            android:id="@+id/classes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/select_classes_tab"
+            android:gravity="center"
+            android:text="分类"
+            android:textColor="@drawable/select_textcolor_yellow_gray"
+            android:textSize="@dimen/dp_10" />
+
+        <RadioButton
+            android:id="@+id/shopCar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/select_shopcar_tab"
+            android:gravity="center"
+            android:text="购物车"
+            android:textColor="@drawable/select_textcolor_yellow_gray"
+            android:textSize="@dimen/dp_10" />
+
+        <RadioButton
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/select_mine_tab"
+            android:gravity="center"
+            android:text="个人"
+            android:textColor="@drawable/select_textcolor_yellow_gray"
+            android:textSize="@dimen/dp_10" />
+    </RadioGroup>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="navpage">#FFE1E8EB</color>
+
+    <!--白色-->
+    <color name="color_white">#ffffff</color>
+    <!--黑色-->
+    <color name="color_black">#000000</color>
+    <!--字体橙黄色-->
+    <color name="color_dc281e">#dc281e</color>
+    <!--字体灰色-->
+    <color name="color_4a4a4a">#4a4a4a</color>
+    <!--搜索背景色-->
+    <color name="color_f4f4f4">#f4f4f4</color>
+    <!--9b9b9b字体-->
+    <color name="color_9b9b9b">#9b9b9b</color>
+    <!--030303字体-->
+    <color name="color_030303">#030303</color>
+    <color name="color_333333">#333333</color>
+    <color name="color_f5a623">#f5a623</color>
+    <color name="color_d0021b">#d0021b</color>
+    <color name="color_f7f7f7">#f7f7f7</color>
+    <color name="color_7c7d7e">#7c7d7e</color>
+    <color name="color_c8c8c8">#c8c8c8</color>
+    <color name="color_dad9db">#dad9db</color>
+    <color name="color_1aad1a">#1aad1a</color>
+    <color name="color_15a0ff">#15a0ff</color>
+</resources>
